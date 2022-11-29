@@ -1,0 +1,1 @@
+# json-template-static-site
