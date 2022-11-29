@@ -7,7 +7,10 @@
   <body onload="renderHello()">
     <div id="target">Loading...</div>
     <script id="template" type="x-tmpl-mustache">
-      Hello {{ name }}!
+      {{#cats.cats}}
+        <h1>{{name}}</h1>
+        Color: {{color}}
+      {{/cats.cats}}
     </script>
 
     <script src="https://unpkg.com/mustache@latest"></script>
